@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f6f9fc;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form {
+    margin-bottom: 1rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#transactions {
+    list-style: none;
+    padding-left: 0;
+}
+
+#transactions li {
+    background: #fff;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}

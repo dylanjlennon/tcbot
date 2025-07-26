@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revel TC MVP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Revel TC – MVP</h1>
+        <p>A simple transaction dashboard</p>
+    </header>
+    <main>
+        <section id="new-transaction">
+            <h2>Create a New Transaction</h2>
+            <form id="transaction-form">
+                <label>
+                    Property Address<br>
+                    <input type="text" id="property" required>
+                </label><br>
+                <label>
+                    Buyer Name<br>
+                    <input type="text" id="buyer" required>
+                </label><br>
+                <label>
+                    Seller Name<br>
+                    <input type="text" id="seller" required>
+                </label><br>
+                <label>
+                    Closing Date<br>
+                    <input type="date" id="closing">
+                </label><br>
+                <button type="submit">Add Transaction</button>
+            </form>
+        </section>
+        <section id="transaction-list">
+            <h2>Transactions</h2>
+            <ul id="transactions"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
